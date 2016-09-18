@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>下拉菜单</title>
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+	</head>
+	<body>
+<!--		
+	1、使用一个名为“dropdown”的容器包裹了整个下拉菜单元素，示例中为:
+		<div class="dropdown"></div>
+	2、使用了一个<button>按钮做为父菜单，并且定义类名“dropdown-toggle”和自定义“data-toggle”属性，且值必须和最外容器类名一致，此示例为:
+		data-toggle="dropdown"
+	3、下拉菜单项使用一个ul列表，并且定义一个类名为“dropdown-menu”，此示例为:
+		<ul class="dropdown-menu">
+-->
+		<div class="dropdown">
+			<button class="btn btn-default dropdown-toggle" data-toggle="dropdown">下拉菜单
+				<span class="caret"></span>
+			</button>
+			<ul class="dropdown-menu" role="menu">
+				<li class="dropdown-header">这是一个菜单标题</li>
+				<li><a href="#">苹果</a></li>
+				<li class="divider"></li>
+				<li><a href="#">葡萄</a></li>
+				<li><a href="#">香蕉</a></li>
+				<li><a href="#">樱桃</a></li>
+			</ul>
+		</div>
+		<script src="js/jquery.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+	</body>
+</html>

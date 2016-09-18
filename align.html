@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>下拉菜单(对齐方式)</title>
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/align.css"/>
+	</head>
+	<body>
+		<h3>使用pull-right类使下拉菜单与父容器右对齐</h3>
+		<div class="dropdown">
+			<button class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+				下拉菜单
+				<span class="caret"></span>
+			</button>
+			<ul class="dropdown-menu pull-right">
+				<li class="dropdown-header"><a href="#">菜单标题</a></li>
+				<li class="divider"></li>
+				<li><a href="#">水蜜桃</a></li>
+				<li><a href="#">葡萄</a></li>
+			</ul>
+		</div>
+		<h3>使用dropdown-menu-right类使下拉菜单与父容器右对齐</h3>
+		<div class="dropdown">
+			<button class="btn btn-danger dropdown-toggle" data-toggle="dropdown">
+				下拉菜单
+				<span class="caret"></span>
+			</button>
+			<ul class="dropdown-menu dropdown-menu-right">
+				<li class="dropdown-header"><a href="#">菜单标题</a></li>
+				<li class="divider"></li>
+				<li><a href="#">茄子</a></li>
+				<li><a href="#">辣椒</a></li>
+			</ul>
+		</div>
+		<h3>使用dropdown-menu-left类使下拉菜单与父容器左对齐</h3>
+		<div class="dropdown">
+			<button class="btn btn-default dropdown-toggle" data-toggle="dropdown">下拉菜单</button>
+			<ul class="dropdown-menu dropdown-menu-left">
+				<li><a href="#">西蓝花</a></li>
+				<li><a href="#">菜豆</a></li>
+				<li class="divider"></li>
+				<li><a href="#">西瓜</a></li>
+			</ul>
+		</div>
+		
+		<div class="dropdown">
+			<button class="btn btn-default dropdown-toggle" data-toggle="dropdown">食物</button>
+			<ul class="dropdown-menu dropdown-menu-left">
+				<li class="dropdown-header"><a href="#">水果</a></li>
+				<li><a href="#">苹果</a></li>
+				<li><a href="#">香蕉</a></li> 
+				<li><a href="#">梨</a></li>
+				<li><a href="#">桃</a></li>
+				<li class="divider"></li>
+				<li class="dropdown-header"><a href="#">蔬菜</a></li>
+				<li><a href="#">芹菜</a></li>
+				<li><a href="#">萝卜</a></li>
+				<li><a href="#">茄子</a></li>
+			</ul>
+		</div>
+		<script src="js/jquery.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+	</body>
+</html>

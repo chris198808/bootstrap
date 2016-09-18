@@ -1,0 +1,11 @@
+body{
+	margin-left: 100px;
+	margin-top: 50px;
+}
+h3{
+	clear: both;
+	margin-top: 50px;
+}
+.dropdown{
+	float: left;
+}
