@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>警示框</title>
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+	</head>
+	<body>
+		<h3>基本警示框</h3>
+		<br />
+		<div class="alert alert-info" role="alert">alert info</div>
+		<div class="alert alert-danger" role="alert">alert danger</div>
+		<div class="alert alert-success" role="alert">alert success</div>
+		<div class="alert alert-warning" role="alert">alert-warning</div>
+		<br />
+		<h3>可关闭的警示框</h3>
+		<div class="alert alert-info alert-dismissable">alert info close
+			<button class="close" data-dismiss="alert">&times;</button>
+		</div>
+		<div class="alert alert-danger alert-dismissable">alert danger close
+			<button class="close" data-dismiss="alert">&times;</button>
+		</div>
+		<br />
+		<h3>警示框的链接</h3>
+		<div class="alert alert-success alert-dismissable" role="alert">如果出现成功警示框,请<a class="alert-link" href="#">点击进入</a>下一个页面
+			<button class="close" data-dismiss="alert">&times;</button>
+		</div>
+		<div></div>
+		<script src="js/jquery.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+	</body>
+</html>
